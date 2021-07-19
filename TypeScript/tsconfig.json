@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "outDir": "dir",
+        //"noEmitOnError": false// Pode ser utilizado evitar criar javaScript com erro no TypeScript, o valor deve ser true
+    }
+}
