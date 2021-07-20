@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
-        "outDir": "dist"
+        "outDir": "dist",
+        "typeRoots": [
+            "node_modules/@types"
+        ]
         //"noEmitOnError": false// Pode ser utilizado evitar criar javaScript com erro no TypeScript, o valor deve ser true
     }
 }
