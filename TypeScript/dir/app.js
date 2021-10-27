@@ -13,6 +13,8 @@ var isEnoughtToBeat = function (parsecs) {
 };
 var distance = 14;
 console.log("A distancia " + distance + " \u00E9 suficiente para o Falcon? " + (isEnoughtToBeat(distance) ? 'Yes' : 'No'));
+var call = function (name) { return console.log("Voce copiou " + name); };
+call('JOAOZINHO');
 function inc(speed, inc) {
     if (inc === void 0) { inc = 1; }
     return speed + inc;

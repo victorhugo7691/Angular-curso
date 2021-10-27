@@ -17,6 +17,9 @@ let isEnoughtToBeat = function( parsecs: number): boolean {
 let distance = 14;
 console.log(`A distancia ${distance} é suficiente para o Falcon? ${isEnoughtToBeat(distance) ? 'Yes':'No' }`);
 
+let call = (name: string) => console.log(`Voce copiou ${name}`);
+    
+call('JOAOZINHO');
 function inc (speed: number, inc: number = 1) : number{
     return speed + inc;
 }
