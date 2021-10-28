@@ -14,7 +14,7 @@ var HeaderComponent = /** @class */ (function () {
     HeaderComponent.prototype.ngOnInit = function () {
     };
     HeaderComponent = __decorate([
-        core_1.Component({
+        (0, core_1.Component)({
             selector: 'jad-header',
             templateUrl: './header.component.html',
             styleUrls: ['./header.component.css']

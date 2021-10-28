@@ -16,7 +16,7 @@ var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        core_1.NgModule({
+        (0, core_1.NgModule)({
             declarations: [
                 app_component_1.AppComponent,
                 header_component_1.HeaderComponent

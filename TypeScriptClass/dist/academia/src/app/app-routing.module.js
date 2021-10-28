@@ -14,7 +14,7 @@ var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
     }
     AppRoutingModule = __decorate([
-        core_1.NgModule({
+        (0, core_1.NgModule)({
             imports: [router_1.RouterModule.forRoot(routes)],
             exports: [router_1.RouterModule]
         })

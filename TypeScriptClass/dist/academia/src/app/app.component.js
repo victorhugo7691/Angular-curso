@@ -13,7 +13,7 @@ var AppComponent = /** @class */ (function () {
         this.title = 'academia';
     }
     AppComponent = __decorate([
-        core_1.Component({
+        (0, core_1.Component)({
             selector: 'jad-root',
             templateUrl: './app.component.html',
             styleUrls: ['./app.component.css']
