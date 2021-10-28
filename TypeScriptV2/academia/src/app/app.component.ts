@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'academia';
+  //title = 'academia';
+  luke = {
+    name: "Luke",
+    isJedi: "true",
+    temple: "Corustant"
+  }
+
+  leia = {
+    name: "Leia",
+    isJedi: "false"
+  }
 }
