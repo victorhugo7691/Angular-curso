@@ -2,6 +2,7 @@
     Student: {{student.name}}
 </div>
 
-<div [hidden]="!student.isJedi">
-Você é um Jedi!
+<!-- <div [hidden]="!student.isJedi"> -->
+<div *ngIf="student.isJedi">
+    Você é um Jedi!
 </div>
