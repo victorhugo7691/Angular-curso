@@ -12,7 +12,8 @@ export class StudentComponent implements OnInit {
   /*@Input() name: string | undefined // = 'Luke';
   @Input() isJedi: boolean  | undefined  //= true;
 */
-  @Input() student: Student | undefined
+  @Input()
+  student!: Student;
   
   constructor() { }
 

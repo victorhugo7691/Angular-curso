@@ -9,12 +9,12 @@ export class AppComponent {
   //title = 'academia';
   luke = {
     name: "Luke",
-    isJedi: "true",
+    isJedi: true,
     temple: "Corustant"
   }
 
   leia = {
     name: "Leia",
-    isJedi: "false"
+    isJedi: false
   }
 }
