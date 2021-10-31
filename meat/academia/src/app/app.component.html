@@ -1,0 +1,14 @@
+<span> <jad-header></jad-header> </span>
+<br>
+
+<jad-student *ngFor="let student of students" [student]="student"></jad-student>
+
+<div>
+    <router-outlet></router-outlet>
+</div>
+<!-- 
+<jad-student [student]="students"></jad-student>
+<jad-student [student]="leia"></jad-student>
+-->
+<!--<jad-student name="Luke" [isJedi]="true"></jad-student> -->
+<!-- <span>{{ title }} app is running!</span> -->
