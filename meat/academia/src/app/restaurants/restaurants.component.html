@@ -1,0 +1,7 @@
+<div class="restaurant">
+    <h2>Bem vindo a Restaurante</h2>
+    <p>Aqui temos uma diversidade de locais para você se alimentar!</p>
+    <div *ngFor="let restaurant of restaurants">
+        <jad-restaurant [restaurant]="restaurant"></jad-restaurant>
+    </div>
+</div>
