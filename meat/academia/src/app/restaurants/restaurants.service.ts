@@ -17,3 +17,19 @@ export class RestaurantsService{
         return this.rests;
     }
 }
+
+/*import { Injectable } from "@angular/core";
+import { Restaurant } from "./restaurant/restaurant.model";
+import { MEAT_API } from "../app.api";
+import { Observable } from "rxjs/internal/Observable";
+import 'rxjs/add/operator/map'
+import { HtmlAstPath } from "@angular/compiler";
+
+@Injectable()
+export class RestaurantsService{
+    constructor(private http: HtmlAstPath){}
+
+    restaurants(): Observable<Restaurant[]> {
+        return this.http.get(`${MEAT_API}/restaurants`).map(response => response.json())
+    }
+}*/
