@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Restaurant } from './restaurant/restaurant.model';
+import { RestaurantsService } from './restaurants.service';
 
 @Component({
   selector: 'jad-restaurants',
@@ -8,18 +9,11 @@ import { Restaurant } from './restaurant/restaurant.model';
 })
 export class RestaurantsComponent implements OnInit {
 
-  restaurants: Restaurant[] = [{
-    id: "Restaurante Bom",
-    name:"Restaurante Bom",
-    category: "Pratos",
-    delivery: "10",
-    rate: 4.9,
-    imagePath: "assets" 
-    }
-  ]
-  constructor() { }
+  restaurants!: Restaurant[];
+  constructor(private restaurantsService:RestaurantsService) { }
 
   ngOnInit(): void {
+    this.restaurants = this.restaurantsService.restaurants();
   }
 
 }

@@ -1,0 +1,20 @@
+{
+    "restaurants": [
+        {
+            "id": "Restaurante Bom",
+            "name":"Restaurante Bom",
+            "category": "Pratos",
+            "delivery": "10",
+            "rate": 4.9,
+            "imagePath": "assets" 
+        },
+        {
+            "id": "Restaurante Faminto",
+            "name":"Restaurante Faminto",
+            "category": "Sobremesas",
+            "delivery": "15",
+            "rate": 4.9,
+            "imagePath": "assets" 
+        }
+    ]
+}
