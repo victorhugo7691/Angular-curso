@@ -7,10 +7,10 @@ import { Restaurant } from './restaurant.model';
 })
 export class RestaurantComponent implements OnInit {
 
-  @Input()
-  restaurant!: Restaurant;
-  constructor() { }
+  @Input() restaurant!: Restaurant;
 
+  constructor() { }
+  
   ngOnInit(): void {
   }
 
