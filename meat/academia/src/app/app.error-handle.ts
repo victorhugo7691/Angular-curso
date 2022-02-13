@@ -5,8 +5,8 @@ export class ErroHandler {
     static handleError(error: Response | any){
         let errorMessage: string;
 
-        if(errorMessage instanceof Response){
-            errorMessage = `Erro${error.status} ao obter a url ${error.url}`;
+        if(error instanceof Response){
+            errorMessage = `Erro ${error.status} ao acessar a url ${error.url} - ${error.statusText}`;
         } else {
             errorMessage = error.toString();
         }
@@ -14,4 +14,4 @@ export class ErroHandler {
         console.log(errorMessage);
         return Observable.throw(errorMessage);
     }
-}
+}     
